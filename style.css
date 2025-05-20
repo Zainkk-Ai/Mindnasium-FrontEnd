@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ranchers', sans-serif;
+}
+
+body {
+ overflow-x: hidden;
+}
+
+.navbar-expand-lg .navbar-nav {
+  justify-content: space-around;
+  width: 100% !important;
+  font-family: 'Ranchers', cursive;
+  font-size: 17px !important;
+  line-height: 17px !important;
+  letter-spacing: 0 !important;
+  text-align: left;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav button {
+    width: 117px;
+    height: 39.47px;
+    padding: 12px 25px 12px 22px;
+    border-radius: 25px 25px 10px 25px;
+    display: inline-block;
+    background: #C729E0;
+    border: none;
+}
+
+.banner {
+    background-image: url("main banner.png");
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 690px;
+    margin-left: -15px;
+}
+
+.PreSchool .container .row .col-sm-6 img {
+    width: 100%;
+}
+.PreSchool {
+    padding: 80px 0px;
+}
+.preschool-text button {
+  border: none;
+  border-radius: 30px 30px 12px 30px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #C729E0;
+}
+.preschool-text h1 {
+    color: #9B29E0;
+    font-size: 75px;
+    line-height: 80px;
+}
+.preschool-text p {
+    color: #4F4F4F;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.preschool-text button {
+    height: 52px;
+    border-radius: 30px 30px 12px 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Classes {
+    padding: 80px 0px;
+}
+.Classes h1 {
+    padding: 50px;
+    font-family: 'Ranchers';
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+}
+.image-box {
+    padding: 5px;
+    padding-bottom: 60px;
+}
+.image-box  img{
+  width: 100%;
+}
+.card-body button {
+  width: 208.5px;
+  height: 46.88px;
+  padding: 14px 15px 14px 15px;
+  border-radius: 30px 30px 12px 30px;
+  text-align: center;
+  background: #C729E0;
+  border: none;
+}
+
+.newsletter img {
+
+}
+
+.newsletter {
+    padding: 208px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("newsletter.png");
+}
+.newsletter-text {
+    width: 812px;
+    height: 211px;
+    background: #00000080;
+    border-radius: 40px 50px 100px 50px;
+    padding: 25px;
+}
+.newsletter-text h1 {
+    color: white;
+    text-align: center;
+}
+.newsletter-text p {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+.form-group {
+    padding: 30px;
+}
+.newsletter form input {
+ 
+    padding: 14px 16px 14px 16px;
+    border-radius: 30px 30px 12px 30px;
+}
+.myform{
+  display: flex;
+}
+.myform input {
+    width: 70% !important;
+    position: relative;
+}
+.myform button {
+    margin-left: -30px;
+    width: 30% !important;
+}
+.newsletter-text form button {
+    background: #C729E0;
+    color: white;
+    border-radius: 30px 30px 12px 30px;
+    border: none;
+    width: 100%;
+}
+.activities {
+    padding: 129px 0px;
+    background-size: cover;
+    background-position: center; background-repeat: no-repeat;
+    background-image: url("activities.png");
+}
+.activities h1 {
+    font-family: 'Ranchers';
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #AC00C8;
+}
+.A1 {
+    text-align: center;
+    height: 178px;
+    background: #EEEEEE;
+    padding: 20px 42px 3px 37px;
+    border-radius: 170px 250px 150px 160px;
+    margin-bottom: 80px;
+}
+.A1 h3 {
+    font-family: Ranchers;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9B51E0;
+}
+.A1 img {
+    padding-bottom: 20px;
+    margin-top: -68px;
+}
+.A1 p{
+    font-family: Lato;
+font-size: 17px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #4F4F4F;
+}
+.nav-tabs {
+    justify-content: space-around;
+    font-size: 40px;
+    }
+
+ul#myTab {
+    padding: 25px 20px;
+
+}
+div#myTabContent {
+    padding: 120px 0px;
+}
+.nav-tabs .nav-link {
+  color: black; /* Default tab text color */
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.nav-tabs .nav-link.active {
+  color: #AC00C8 !important; /* Change the color for the active tab text */
+}
